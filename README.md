@@ -1,2 +1,1 @@
-# TwitterCard
-Created with CodeSandbox
+# Tweet Card

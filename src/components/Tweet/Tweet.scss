@@ -1,0 +1,40 @@
+$grey-color : rgb(136, 153, 166);
+
+div.socialcard {
+  display: flex;
+  
+  .profile {
+    img {
+      border-radius: 50%;
+      width: 48px;
+    }  
+  }
+
+  .content {
+    width: 100%;
+    .header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .title {
+        span {
+          color: $grey-color;
+        }
+      }
+      
+      
+
+      .action {
+        svg {
+        fill: $grey-color;
+        width: 19px;
+        }
+      }
+    }
+
+    .tweet {
+      font-size: 16px;
+    }
+  }
+}
